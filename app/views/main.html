@@ -1,5 +1,8 @@
 <div class="jumbotron">
   <div>
+
+  {{errorApi}}
+
     <div uib-carousel active="active" >
       <div uib-slide ng-repeat="slide in slides track by slide.id" index="$index">
         <img ng-src="{{slide.links.logo}}">

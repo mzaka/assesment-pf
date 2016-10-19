@@ -24,5 +24,6 @@ angular.module('propFinderApp')
 
     },function(error) {
                 console.log(error);
+                $scope.errorApi = "Please Enable CORS so you can hit the API"
                         });
   }]);
