@@ -1,0 +1,38 @@
+<div class="jumbotron">
+  <div>
+    <div uib-carousel active="active" >
+      <div uib-slide ng-repeat="slide in slides track by slide.id" index="$index">
+        <img ng-src="{{slide.links.logo}}">
+        <div class="carousel-caption">
+
+          <h3>{{slide.name}}</h3>
+          <h5>Phone : {{slide.phone}}</h5>
+          <p>{{slide.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row marketing">
+
+  <h3> Technologies used </h3> <br>
+  <h4>HTML5 and Bootstrap</h4>
+  <p>
+    HTML5 along with bootstrap used to implement the amazing features of bootstrap for web apps.
+  </p>
+
+  <h4>SASS : CSS with superpowers</h4>
+  <p>
+    Sass is the most mature, stable, and powerful professional grade CSS extension language in the world. One of the best preprocessors available right now.
+  </p>
+
+  <h4>Angular</h4>
+  <p>
+    AngularJS is a toolset for building the framework most suited to your application development.
+  </p>
+
+  <h4>Karma</h4>
+  <p>Spectacular Test Runner for JavaScript.</p>
+</div>
