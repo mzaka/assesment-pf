@@ -2,6 +2,8 @@
 
 ## Build & development
 
+Run `npm install` for installing all the modules and `install bower` for installing all bower components.
+
 Run `grunt` for building and `grunt serve` for preview.
 
 ## Testing
